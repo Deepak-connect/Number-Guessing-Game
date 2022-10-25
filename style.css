@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@400;500;600;700;800&family=Press+Start+2P&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Press Start 2P";
+}
+
+:root{
+    --green: #46bb3d;
+    --red: #eb7c7c;
+}
+.btn{
+    padding: 10px 20px;
+    border-radius: 0;
+    cursor: pointer;
+}
+p{
+    font-size: 14px;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+header{
+    padding:20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid white;
+}
+.highest-score{
+    display: flex;
+    align-items: center;
+}
+.highest-score i{
+    margin-right: 10px;
+}
+.container{
+    width: 600px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container h3{
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+.desc{
+    font-size: 12px;
+}
+.center-box{
+    height: 100px;
+    width: 150px;
+    background-color: white;
+    margin-top: 30px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+}
+input{
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    border: none;
+    font-size: 12px;
+}
+.container .btn{
+    padding: 20px;
+    width: 250px;
+    border: none;
+    margin-top: 30px;
+    font-size: 16px;
+}
+.game-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.game-info{
+    margin-top: 30px;
+    border: 2px solid white;
+    padding: 30px 30px 10px 30px;
+    position: relative;
+    background-color: black;
+    z-index: 5;
+}
+.game-info p{
+    margin-bottom: 20px;
+}
+hr{
+    width: 100%;
+    border:none;
+    border-top: 2px solid white;
+    position: absolute;
+    margin-top: -100px;
+    z-index: 1;
+}
